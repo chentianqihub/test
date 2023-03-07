@@ -1,0 +1,9 @@
+# 美团
+^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? url reject
+^https?:\/\/apimobile\.meituan\.com\/appupdate\/mach\/checkUpdate? url reject
+# 京东
+^https?:\/\/api\.m\.jd\.com\/openUpgrade url reject-dict
+# 顺丰
+^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade url reject-dict
+
+hostname = www.meituan.com,api.m.jd.com,sf-express.com
