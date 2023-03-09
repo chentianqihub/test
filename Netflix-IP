@@ -1,7 +1,7 @@
 #netflix-IP
 #https://github.com/QiuSimons/Netflix_IP
 #https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/Netflix.list
-https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/StreamingMedia/Video/Netflix.list
+#https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/StreamingMedia/Video/Netflix.list
 USER-AGENT,Argo*,Netflix
 DOMAIN-SUFFIX,netflix.com,Netflix
 DOMAIN-SUFFIX,netflix.net,Netflix
