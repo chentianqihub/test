@@ -1,0 +1,45 @@
+# 引用地址 https://support.apple.com/en-us/HT210060
+# Apple ID - Apple 设备必须能够连接到以下主机才能验证 Apple ID。所有使用 Apple ID 的服务（如 iCloud、App 安装和 Xcode）都需要满足这个条件。
+HOST, appleid.apple.com, direct
+HOST, appleid.cdn-apple.com, direct
+HOST, idmsa.apple.com, direct
+HOST, gsa.apple.com, direct
+# App Store - Apple 设备需要访问以下主机和域，才能安装和更新 App。
+HOST-SUFFIX, itunes.apple.com, direct
+HOST-SUFFIX, apps.apple.com, direct
+HOST-SUFFIX, mzstatic.com, direct
+HOST, itunes.apple.com, direct
+HOST, ppq.apple.com, direct
+# iCloud - 除了上面列出的 Apple ID 主机外，Apple 设备必须能够连接到以下域的主机才能使用 iCloud 服务。
+HOST-SUFFIX, apple-cloudkit.com, direct
+HOST-SUFFIX, apple-livephotoskit.com, direct
+HOST-SUFFIX, apzones.com, direct
+HOST-SUFFIX, cdn-apple.com, direct
+HOST-SUFFIX, gc.apple.com, direct
+HOST-SUFFIX, icloud.com, direct
+HOST-SUFFIX, icloud.com.cn, direct
+HOST-SUFFIX, icloud.apple.com, direct
+HOST-SUFFIX, icloud-content.com, direct
+HOST-SUFFIX, iwork.apple.com, direct
+HOST, mask.icloud.com, direct
+HOST, mask-h2.icloud.com, direct
+HOST, mask-api.icloud.com, direct
+# 软件更新 - 在安装、恢复和更新 iOS、iPadOS、macOS、watchOS 及 Apple tvOS 时，Apple 设备需要访问以下主机。
+HOST, appldnld.apple.com, direct
+HOST, configuration.apple.com, direct
+HOST, gdmf.apple.com, direct
+HOST, gg.apple.com, direct
+HOST, gs.apple.com, direct
+HOST, ig.apple.com, direct
+HOST, mesu.apple.com, direct
+HOST, ns.itunes.apple.com
+HOST, oscdn.apple.com, direct
+HOST, osrecovery.apple.com, direct
+HOST, skl.apple.com, direct
+HOST, swcdn.apple.com, direct
+HOST, swdist.apple.com, direct
+HOST, swdownload.apple.com, direct
+HOST, swscan.apple.com, direct
+HOST, updates-http.cdn-apple.com, direct
+HOST, updates.cdn-apple.com, direct
+HOST, xp.apple.com, direct
