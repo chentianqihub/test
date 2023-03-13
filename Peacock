@@ -1,0 +1,5 @@
+[rewrite_local]
+https:\/\/.+peacocktv.com\/.+\.webvtt url script-response-body https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/Dualsub.js
+
+[mitm]
+hostname = *.peacocktv.com
